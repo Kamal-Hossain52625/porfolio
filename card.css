@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cardSection{
+    background: linear-gradient(90deg, rgba(226,186,204,1) 16%, rgba(244,234,213,1) 100%);
+    padding: 25px;
+}
+
+.cardSection h2{
+    text-align: center;
+}
+
+.cards{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card_odd{
+    display: flex;
+    gap: 20px;
+    background-color: #EFEFEF;
+    padding: 15px 15px 15px 0px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.card_even{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #EFEFEF;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.card_odd .card_icon div{
+    background-color: #EFEFEF;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F27F21;
+
+}
+.card_icon{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding: 10px;
+    width: 200px;
+    color: #EFEFEF;
+}
+
+
+
+.card_odd .card_icon{
+    border-radius: 0px 141px 139px 0px;
+-webkit-border-radius: 0px 141px 139px 0px;
+-moz-border-radius: 0px 141px 139px 0px;
+background: #f27f21;
+}
+
+
+.card_even .card_icon{
+    border-radius: 0px 141px 139px 0px;
+-webkit-border-radius: 0px 141px 139px 0px;
+-moz-border-radius: 0px 141px 139px 0px;
+background: #f27f21;
+}
+
+.card_even .card_icon div{
+    background-color: #EFEFEF;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F27F21;
+
+}
