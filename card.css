@@ -30,7 +30,7 @@
     display: flex;
     flex-direction: row-reverse;
     background-color: #EFEFEF;
-    padding: 15px;
+    padding: 15px 15px 15px 15px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
 }
@@ -43,34 +43,27 @@
     justify-content: center;
     align-items: center;
     color: #F27F21;
-
 }
-.card_icon{
+.card_odd .card_icon div{
+    background-color: #EFEFEF;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
     display: flex;
+    justify-content: center;
     align-items: center;
-    gap: 25px;
-    padding: 10px;
-    width: 200px;
-    color: #EFEFEF;
+    color: #F27F21;
 }
-
-
-
-.card_odd .card_icon{
-    border-radius: 0px 141px 139px 0px;
--webkit-border-radius: 0px 141px 139px 0px;
--moz-border-radius: 0px 141px 139px 0px;
-background: #f27f21;
+.card_odd .icon_3 div{
+    background-color: #EFEFEF;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F27F21;
 }
-
-
-.card_even .card_icon{
-    border-radius: 0px 141px 139px 0px;
--webkit-border-radius: 0px 141px 139px 0px;
--moz-border-radius: 0px 141px 139px 0px;
-background: #f27f21;
-}
-
 .card_even .card_icon div{
     background-color: #EFEFEF;
     width: 50px;
@@ -80,5 +73,50 @@ background: #f27f21;
     justify-content: center;
     align-items: center;
     color: #F27F21;
+}
 
+.card_icon{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding: 10px;
+    width: 200px;
+    color: #EFEFEF;
+}
+
+.card_odd .card_icon{
+    border-radius: 0px 141px 139px 0px;
+-webkit-border-radius: 0px 141px 139px 0px;
+-moz-border-radius: 0px 141px 139px 0px;
+background: #f27f21;
+}
+.card_odd .icon_3 div{
+    border-radius: 0px 141px 139px 0px;
+-webkit-border-radius: 0px 141px 139px 0px;
+-moz-border-radius: 0px 141px 139px 0px;
+background: #582C8B;
+}
+
+
+.card_even .card_icon{
+    border-radius: 141px 0px 0px 139px;
+-webkit-border-radius: 141px 0px 0px 139px;
+-moz-border-radius: 141px 0px 0px 139px;
+background: #E71E23;
+}
+
+.step-1{
+    color: #f27f21;
+}
+.step-2{
+    color: #E71E23;
+}
+.step-3{
+    color: #582C8B;
+}
+.step-4{
+    color: #0164B1;
+}
+.step-5{
+    color: #01A45F;
 }
