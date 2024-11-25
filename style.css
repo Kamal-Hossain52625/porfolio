@@ -1,0 +1,213 @@
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.R{
+    color: #FD6E0A;
+    font-size: 45px;
+    font-weight: 800;
+}
+.header{
+    padding: 45px 0;
+    background-color: #FFF8F3;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+nav>ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+header li{
+    list-style: none;
+    margin-right: 50px;
+    font-size: 18px;
+}
+.nav_bar{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+.btn{
+    background-color: #FD6E0A;
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 15px 35px;
+    color: #fdfdfd;
+}
+.trans{
+    background-color: transparent;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+}
+.banner{
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Hi{
+    color: #474747;
+    font-size: 45px;
+    margin-bottom: 0;
+}
+.name{
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: -50px;
+    margin-bottom: 20px;
+}
+.picture{
+    width: 500px;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    margin: 100px 0;
+    box-shadow: 0 70 60 0 rgba(0, 0, 0, 0.5);
+}
+.about_me{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.about-text{
+    text-align: justify;
+    font-size: 16px;
+
+}
+.Name_title{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.what{
+    padding: 50px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    margin: 100px 0px;
+}
+.do{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.what_text{
+    text-align: center;
+    font-size: 16px;
+    padding: 20px;
+    color: #757575;
+}
+.boxes{
+    display: flex;
+    gap: 15px;
+}
+.box{
+    padding: 50px 20px;
+    background-color: #FFF;
+    color: #757575;
+    width: 50%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.5);
+    text-align: justify;
+}
+.box-h{
+    color: #181818;
+    font-size: 20px;
+    font-weight: bold;
+}
+.resume-container{
+    background-color: white;
+    margin-top: 130px;
+    padding: 50px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.resume-header{
+    font-size: 35px;
+    text-align: center;
+    font-weight: 700;
+    color: #181818;
+}
+.qualification{
+    margin-bottom: 50px;
+}
+.resume-column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.my-education-container{
+    padding: 20px;
+    width: 50%;
+}
+.my-experience-container{
+    padding: 20px;
+    width: 50%;
+}
+.title{
+    color: #474747;
+    font-size: 1.5em;
+}
+.education-title{
+    font-size: 1.2em;
+    color:#474747;
+}
+.institute{
+    font-size: 1em;
+    color: #474747;
+}
+.education-des{
+    color: #757575;
+}
+.download-cv{
+    margin: 20px;
+    text-align: center;
+}
+
+footer{
+    background-color: #FFF8F3;
+    padding: 200px;
+    margin-top:50px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+.column-header{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.footer-column>form>.contact {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    width: 100%;
+}
+.icon{
+    display: flex;
+    gap: 20px;
+}
