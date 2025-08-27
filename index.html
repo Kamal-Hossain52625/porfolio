@@ -23,41 +23,128 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
+    <!-- Result system -->
+    <section class="Grading-point">
+      <div class="container bg-info text-white p-5">
+        <div class="row d-flex justify-content-center">
+          <div class="input-group mb-3" id="inputwidth">
+            <input
+              type="number"
+              class="form-control"
+              placeholder="Enter Your Result"
+              id="result"
+            />
+            <button
+              class="btn btn-outline-light"
+              type="submit"
+              id="click"
+            >
+              Submit
+            </button>
+          </div>
+
+          <!-- <div class="col-md-4 col-lg-4">
+            <input
+              type="number"
+              style="width: 150px"
+              placeholder="Enter Your Result"
+              id="result"
+            />
+            <button id="click" class="btn btn-outline-light" type="submit">
+              Submit
+            </button>
+          </div> -->
+
+          <div class="text-center">
+            <h3 id="output" class="p-"></h3>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- Calculator -->
     <section class="">
-      <div class="container calculator-wrapper">
+      <div class="container p-4 calculator-wrapper">
         <div class="calculator">
           <form>
             <div class="display">
-              <input type="text" name="display">
+              <input type="text" name="display" placeholder="0" />
             </div>
             <div>
-              <input type="button" value="AC" onclick="display.value = '' " class="operator">
-              <input type="button" value="DE" onclick="display.value = display.value.toString().slice(0,-1)" class="operator">
-              <input type="button" value="." onclick="display.value += '.' " class="operator">
-              <input type="button" value="/" onclick="display.value += '/' " class="operator">
+              <input
+                type="button"
+                value="AC"
+                onclick="display.value = '' "
+                class="operator"
+              />
+              <input
+                type="button"
+                value="DE"
+                onclick="display.value = display.value.toString().slice(0,-1)"
+                class="operator"
+              />
+              <input
+                type="button"
+                value="."
+                onclick="display.value += '.' "
+                class="operator"
+              />
+              <input
+                type="button"
+                value="/"
+                onclick="display.value += '/' "
+                class="operator"
+              />
             </div>
             <div>
-              <input type="button" value="7" onclick="display.value += '7' ">
-              <input type="button" value="8" onclick="display.value += '8' ">
-              <input type="button" value="9" onclick="display.value += '9' ">
-              <input type="button" value="*" onclick="display.value += '*' " class="operator">
+              <input type="button" value="7" onclick="display.value += '7' " />
+              <input type="button" value="8" onclick="display.value += '8' " />
+              <input type="button" value="9" onclick="display.value += '9' " />
+              <input
+                type="button"
+                value="*"
+                onclick="display.value += '*' "
+                class="operator"
+              />
             </div>
             <div>
-              <input type="button" value="4" onclick="display.value += '4' ">
-              <input type="button" value="5" onclick="display.value += '5' ">
-              <input type="button" value="6" onclick="display.value += '6' ">
-              <input type="button" value="-" onclick="display.value += '-' " class="operator">
+              <input type="button" value="4" onclick="display.value += '4' " />
+              <input type="button" value="5" onclick="display.value += '5' " />
+              <input type="button" value="6" onclick="display.value += '6' " />
+              <input
+                type="button"
+                value="-"
+                onclick="display.value += '-' "
+                class="operator"
+              />
             </div>
             <div>
-              <input type="button" value="1" onclick="display.value += '1' ">
-              <input type="button" value="2" onclick="display.value += '2' ">
-              <input type="button" value="3" onclick="display.value += '3' ">
-              <input type="button" value="+" onclick="display.value += '+' " class="operator">
+              <input type="button" value="1" onclick="display.value += '1' " />
+              <input type="button" value="2" onclick="display.value += '2' " />
+              <input type="button" value="3" onclick="display.value += '3' " />
+              <input
+                type="button"
+                value="+"
+                onclick="display.value += '+' "
+                class="operator"
+              />
             </div>
             <div>
-              <input type="button" value="00" onclick="display.value += '00' ">
-              <input type="button" value="0" onclick="display.value += '0' ">
-              <input type="button" value="=" onclick="display.value = eval(display.value) " class="equal operator">
+              <input
+                type="button"
+                value="00"
+                onclick="display.value += '00' "
+              />
+              <input type="button" value="0" onclick="display.value += '0' " />
+              <input
+                type="button"
+                value="="
+                onclick="display.value = eval(display.value) "
+                class="equal operator"
+              />
             </div>
           </form>
         </div>
